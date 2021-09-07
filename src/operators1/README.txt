@@ -20,6 +20,11 @@ HomeWorktxt1 - побитовые операции;
 
 HomeWorktxt2 - приоритет операторов;
 
+HomeWorktxt5 - if;
+
+HomeWorktxt6 - else if;
+
+HomeWorktxt7 - switch;
 
 
 
