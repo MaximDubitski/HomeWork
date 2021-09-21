@@ -2,22 +2,20 @@ package operators1;
 
 import java.util.Scanner;
 
-public class HomeWork5 {
+public class HomeWork6 {
     public static void main(String[] ar) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите пожалуйста число");
         int n1 = scan.nextInt();
-
-
-        System.out.println("Перевести в байты( введите '1') или килобайты( введите '2'): ");
+        System.out.println("Перевести в байты( введите 'b') или килобайты( введите 'k'): ");
         Scanner scanner = new Scanner(System.in);
-        int n2 = scan.nextInt();
+        String bk = scan.nextLine();
 
-        switch (n2) {
-            case 1:
+        switch (bk) {
+            case "b":
                 System.out.println(n1 * 1024 + " байт");
                 break;
-            case 2:
+            case "k":
                 System.out.println(n1 / 1024 + " килобайт");
                 break;
 

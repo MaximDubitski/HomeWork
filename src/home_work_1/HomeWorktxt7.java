@@ -9,11 +9,11 @@ public class HomeWorktxt7 {
         String name = scan.nextLine();
 
         switch (name){
-            case ("Вася"):
+            case "Вася":
                     System.out.println("Привет!");
                     System.out.println("Я тебя так долго ждал");
                 break;
-            case ("Анастасия"):
+            case "Анастасия":
                     System.out.println("Я тебя так долго ждал");
                 break;
 
